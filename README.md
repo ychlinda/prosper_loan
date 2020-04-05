@@ -14,6 +14,7 @@ Prosper Loan dataset. Check out the details for this dataset [here](https://www.
 > 9. The mean loan amount differentials across income range at a given prosper score play differently for 20% and 35% APR loans. Perhaps loans with 35% APR are deemed very risky and the impacts of income range and prosper score on loan amounts are therefore muted.
 
 ## Choosing visualisations for explanatory analysis
-Focus on the main storyline and choose the graphs with clear patterns and meaningful insights as part of the narratives
+Focus on the main storyline and choose the graphs with clear patterns and meaningful insights as part of the narratives. Move from univariate to bivariate and then multivariate explorations.
+
 
 
