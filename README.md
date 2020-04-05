@@ -10,11 +10,18 @@ Prosper Loan dataset. Check out the details for this dataset [here](https://www.
 > 5. Interest rate has a negative relationship with Prosper score and income. It makes sense intuitively, as borrowing rate is lower for high-ranking loans (low risk) and individuals from high-income brackets. In general, interest rates are also higher for past-due, defaulted and charged off loans.
 > 6. Original loan amount has a positive relationship with Prosper score and income. Interestingly, loans that are charged-off or defaulted tend to be small. This is worthy of further investigation with more data points.
 > 7. Compared to the current loans, charged-off and defaulted loan are normally small and high interest bearing. Completed loans also tend to be small.
-> 8. For USD5,000 and USD15,000 loans (the most popular on Prosper), borrower APR are noticeably lower for high-rating loans. Nevertheless, APR may not decline further after income passes a certain theshold. In some cases, those in the income range of 100,000+ may incur a higher APR than those in the range of 50,000-74,999,with prosper score being equal.
+> 8. For USD5,000 and USD15,000 loans (the most popular on Prosper), borrower APRs are noticeably lower for high-rating loans. Nevertheless, APR may not decline further after income passes a certain theshold. In some cases, those in the income range of 100,000+ may incur a higher APR than those in the range of 50,000-74,999,with prosper score being equal.
 > 9. The mean loan amount differentials across income range at a given prosper score play differently for 20% and 35% APR loans. Perhaps loans with 35% APR are deemed very risky and the impacts of income range and prosper score on loan amounts are therefore muted.
 
-## Choosing visualisations for explanatory analysis
-Focus on the main storyline and choose the graphs with clear patterns and meaningful insights as part of the narratives. Move from univariate to bivariate and then multivariate explorations.
 
+## Key Insights for Presentation
 
+> 1.The distribution of annual interest rate that borrowers incur looks roughly bimodal. There are a peak around 20% and the second peak around 35%. 
+> 2.Interest rate has a negative relationship with Prosper score and income. In general, interest rates are also higher for past-due, defaulted and charged off loans.
+> 3.Compared to the current loans, charged-off and defaulted loan are normally small and high interest bearing. Completed loans also tend to be small.
+> 4.For $5,000 and $15,000 loans (the most popular on Prosper), borrower APRs are noticeably lower for high-rating loans. Nevertheless, APR may not decline further after income range passes a certain theshold. In some cases, those in the income range of 100,000+ may incur a higher APR than those in the range of 50,000-74,999, with prosper score being equal.
 
+## Sources:
+>[Matplotlib documentation](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.legend.htmlhttps://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.legend.html)
+>[Stackoverflow post: rotate label text in seaborn](https://stackoverflow.com/questions/26540035/rotate-label-text-in-seaborn-factorplot)
+>[Stackoverflow post: show axe labels for each subplot](https://stackoverflow.com/questions/33377243/seaborn-pairgrid-show-axes-labels-for-each-subplot)
